@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
 const express = require('express');
-const path = require('path');
 mongoose.set('strictQuery', false);
 mongoose.connect(process.env.REACT_APP_MONGO_URI)
 const app = express();
